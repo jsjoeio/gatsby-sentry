@@ -1,6 +1,6 @@
 # Building Chrome Extensions with React
 
-Slide deck for my lightening talk at [Phoenix ReactJS](https://www.meetup.com/Phoenix-ReactJS/) on December 5th, 2018. Built with [mdx-deck](https://github.com/jxnblk/mdx-deck).
+Slide deck for my presentation at [Sentry.io](https://sentry.io/) on January 11th, 2019. Built with [mdx-deck](https://github.com/jxnblk/mdx-deck).
 
 ## mdx-deck basic template
 
