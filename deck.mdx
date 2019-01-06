@@ -1,0 +1,95 @@
+import { Head, Appear } from 'mdx-deck'
+import Footer from './components/Footer'
+import FlexBox from './components/FlexBox'
+import Item from './components/Item'
+import TwoColumn from './components/TwoColumn'
+import Link from './components/Link'
+
+export { default as theme } from './theme'
+
+<Head>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>Chrome Exts. with React</title>
+</Head>
+
+# Building Chrome Extensions with React <br/> ⚛️
+
+<div style={{ margin: '100px 0'}}>
+  <p style={{ margin: '0' }}>👋🏼<br/>Joe Previte</p>
+  <Link href='https://twitter.com/jsjoeio' target="_blank" alt='@jsjoeio Twitter'><p style={{ margin: '0' }}>@jsjoeio</p></Link>
+</div>
+<Footer />
+
+---
+
+# My Background
+
+<FlexBox>
+  <Item title="freeCodeCamp alumni" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444596/step-up-portfolio-gatsbyjs/fcc-green.jpg" link="https://www.freecodecamp.org/" alt="freecodecamp logo"/>
+  <Item title="Front End Engineer" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444673/step-up-portfolio-gatsbyjs/das-crosshair.png" link="https://digitalairstrike.com/"alt="digital air strike logo"/>
+  <Item title="egghead instructor" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444152/step-up-portfolio-gatsbyjs/egghead-logo.png" link="https://egghead.io/instructors/joe-previte" alt="egghead logo"/>
+</FlexBox>
+
+---
+
+<Appear>
+  <q style={{ fontSize: '56px', marginTop: '100px', fontStyle: 'italic'}}>I could build a Chrome Extension with React.</q>
+</Appear>
+
+---
+
+# Agenda
+
+- Demo extension I built
+- How they work
+- Boilerplate to started
+
+---
+
+# Timezoner
+
+<div style={{display: 'flex', flexDirection: 'column', textAlign: 'center'}}>
+  <a href='https://chrome.google.com/webstore/detail/timezoner/kfnfgcafkeoflpapeniggnnkcaijgbgk' alt='timezoner on chrome web store'>
+    <img style={{width: '300px', height: 'auto'}}src='https://res.cloudinary.com/dobfxs62e/image/upload/v1543700911/timezoner-demo2_tjzpnd.gif'/>
+  </a>
+  <Link style={{fontSize: '16px', marginBottom: '25px'}} href='https://github.com/jsjoeio/timezoner-extension' alt='timezoner github repo'>GitHub Repo</Link>
+</div>
+
+---
+
+<img style={{width: '300px', height: 'auto'}}src='https://res.cloudinary.com/dobfxs62e/image/upload/v1543701067/demo_timezoner_qkkqyd.jpg'/>
+
+---
+
+# Chrome Exts. Overview
+
+<TwoColumn>
+  <div>
+    <ol>
+      <li>User clicks icon</li>
+      <li>Chrome loads files: <pre>popup.html<br/>popup.js</pre></li>
+      <li>User interacts with popup</li>
+    </ol>
+  </div>
+  <a href='https://developer.chrome.com/extensions/overview' alt='timezoner on chrome web store'>
+    <img style={{width: '300px', height: 'auto'}}src='https://developer.chrome.com/static/images/overview/contentscriptarc.png'/>
+  </a>
+</TwoColumn>
+
+---
+ # Boilerplate
+
+<img style={{width: '800px', height: 'auto'}} src='https://i.ibb.co/v4Q4NB4/chromeextdemo2x.gif'/>
+<Link style={{fontSize: '16px', marginBottom: '25px', display: 'block'}} href='https://github.com/jsjoeio/react-chrome-ext' alt='react-chrome-ext github repo'>GitHub Repo</Link>
+
+---
+# Thank you! 🙏🏼
+
+<ul style={{textAlign: 'left', marginBottom: '200px'}}>
+  <Link href='https://build-chrome-exts-react.netlify.com/' alt='slides'><li>Slide Deck - https://build-chrome-exts-react.netlify.com/</li></Link>
+  <Link href='https://github.com/jsjoeio/timezoner-extension' alt='timezoner github'><li>Timezoner - GitHub</li></Link>
+  <Link href='https://github.com/jsjoeio/react-chrome-ext' alt='boilerplate to build chrome extensions with react'><li>react-chrome-ext boilerplate</li></Link>
+  <Link href='https://www.meetup.com/Desert-GraphQL-Meetup/' alt='desert graphql meetup page'><li>Desert GraphQL Meetup</li></Link>
+</ul>
+<img style={{margin: 'auto', borderRadius: '50%', width: '150px'}}src='https://avatars1.githubusercontent.com/u/3806031?s=460&v=4' alt='joe previte headshot' />
+<Link href='https://twitter.com/jsjoeio' target="_blank" alt='@jsjoeio Twitter'><p style={{fontSize: '16px'}}>@jsjoeio</p></Link>
