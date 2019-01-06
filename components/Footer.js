@@ -16,7 +16,7 @@ const Container = styled.footer`
 `
 export default () => (
   <Container>
-    <Link href='https://www.meetup.com/Phoenix-ReactJS/events/256303585/' target='_blank' alt='Phoenix ReactJS lightening talks in December event page'><p style={{ margin: '10px 0' }}>Lightening Talks - Phoenix ReactJS</p></Link>
-    <p style={{ margin: '0' }}>Wednesday, December 5th, 2018</p>
+    <Link href='https://sentry.io/welcome' target='_blank' alt="Sentry.io's website."><p style={{ margin: '10px 0' }}>Sentry.io</p></Link>
+    <p style={{ margin: '0' }}>Friday, January 11th, 2019</p>
   </Container>
 )
