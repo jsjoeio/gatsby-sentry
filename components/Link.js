@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export default styled.a`
-  color: #0074D9;
+  color: #F79464;
   text-decoration: none;
 
   &:hover {
