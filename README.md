@@ -39,3 +39,5 @@ npm run image
 For more documentation see the [mdx-deck][] repo.
 
 [mdx-deck]: https://github.com/jxnblk/mdx-deck
+
+Woo!
